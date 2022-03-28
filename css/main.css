@@ -1,0 +1,110 @@
+body{
+    direction: rtl;
+    text-align: right;
+}
+.section{
+    padding: 80px 0;
+}
+.section-title{
+    position: relative;
+    display: inline-block;
+}
+.section-title::after{
+    content: "";
+    display: block;
+    width:120px;
+    height: 5px;
+    background-color: #F8C433;
+    position: absolute;
+    bottom: 0;
+ 
+}
+.navbar{
+    box-shadow: 1px 2px 4px #eee ;
+}
+.home{
+    height: 600px;
+    background-image: url(../img/slide-bg-2.jpeg);
+    background-position: center center;
+    background-size: cover;
+
+}
+.home-item{
+    width: 100%;
+margin: auto;
+margin-top: 15%;
+}
+.home-item h2{
+    color: white;
+    font-size: 33px;
+}
+.home-item p{
+    color: white;
+font-size: 18px;
+padding-top: 10px;
+}
+.about-item button{
+    margin-bottom: 15px;
+}
+.news-left{
+    display: flex;
+}
+.news-left img{
+ max-width: 200px;
+ margin-left: 10px;
+} 
+
+.choosing .item-1{
+}
+
+.item-1 img{
+    max-width: 300px;
+}
+.item-1 .desc{
+    padding-right: 14px;
+}
+.icon{
+   display: flex;
+}
+.icon i{
+    font-size: 40px;
+    background-color:#F8C433 ;
+    color: white;
+    padding: 13px;
+    border-radius: 50%;
+}
+
+.media img{
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.subscribe{
+    background-image: url(../img/subscribe-our-newsletter-bg.jpeg);
+    background-size: cover;
+    height: 450px;
+    padding: 1px;
+    color: white;
+}
+.subscribe-item{
+    width: 50%;
+    margin: 50px auto;
+}
+.subscribe-item h2{
+    font-size: 33px;
+}
+.subscribe-item .form{
+    display: flex;
+    justify-content: space-between;
+}
+.subscribe-item .form input{
+    width: 80%;
+}
+.subscribe-item .form button{
+    width: 15%;
+}
+
+footer{
+    background-color: #031D3D;
+    color: white;
+}
